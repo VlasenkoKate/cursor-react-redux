@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.post_area {
+  display: flex;
+  width: 100%;
+  max-width: 740px;
+  height: 500px;
+  border: 1px solid #e2e3e5;
+  font-size: 18px;
+  position: relative;
+  margin: 20px 0px;
+  border-radius: 2%;
+}
+
+.avatar_photo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 20px 20px;
+}
+.post_info {
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+.top {
+  flex-wrap: wrap;
+}
+.author_name {
+  font-size: 1.1rem;
+  color: #18181a;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.nickname,
+.date,
+.svg-icon {
+  font-size: 1rem;
+  color: #797979;
+  padding-right: 10px;
+}
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  right: 15px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+.verified {
+  fill: #4691f6;
+  width: 16px;
+  height: 16px;
+}
+.post_picture {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+  height: 100%;
+}
+
+.body {
+  margin: 15px 20px 0 0;
+  height: 330px;
+  width: 100%;
+  min-width: 600px;
+  max-width: 620px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 30px 20px 5px;
+}
+.footer_stats {
+  display: flex;
+}
+
+.footer_icon {
+  width: 1em;
+  height: 1em;
+  fill: #474747;
+}
+.footer_text {
+  font-size: 0.8em;
+  padding-left: 5px;
+}
